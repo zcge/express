@@ -1,0 +1,11 @@
+<%- include header %>
+<form method="post">
+    userName: <input type="text" name="name" /> <br />
+    password: <input type="password" name="password"/> <br />
+    password again: <input type="password" name="password-repeat"/> <br />
+    <input type="submit" value="註冊">
+</form>
+<div>
+    <%= error %>
+    <%= success %>
+</div>
